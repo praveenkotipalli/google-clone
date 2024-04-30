@@ -1,0 +1,75 @@
+.first{
+    display: flex;
+    position: relative;
+    
+    /* padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 7px; */
+    flex-direction: column;
+    /* background-color: rgb(193, 191, 191); */
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    border-bottom:1px solid #7f7f7f;
+    /* justify-content: space-between; */
+}
+.second{
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third{
+    /* border: 1px solid black; */
+    color: white;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    background-color: rgb(91, 91, 223);
+}
+.fourth{
+    border-radius: 10px;
+    padding: 3px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    background-color: white;
+    border: 2px solid #7f7f7f
+}
+.fourth:hover{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.Ssecond{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 3px;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-bottom: 8px;
+    padding-right: 100px;
+    margin-right: 10px;
+    /* margin-right: 800px; */
+    background-color: white;
+}
+.Ssecond:hover{
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.down{
+    display: flex;
+    /* border: 1px solid green; */
+    margin-left: 10px;
+    gap: 30px;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 10px;
+}
+.all{
+    padding-left: 10px;
+}
